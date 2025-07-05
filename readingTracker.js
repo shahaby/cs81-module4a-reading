@@ -73,7 +73,10 @@ printDailySummary(readingLog);
 console.log("Total minutes read:", totalReadingMinutes(readingLog));
 console.log("Most read book:", mostReadBook(readingLog));
 
-// Test Case
-
 
 // Suggested Improvement
+// Consider adding input data validation to addReadBook function.
+// As it stands it assumes that day, book, and minutes always be valid and non-null.
+
+
+// Test Case
