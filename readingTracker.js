@@ -80,3 +80,7 @@ console.log("Most read book:", mostReadBook(readingLog));
 
 
 // Test Case
+addReadBook("Sunday", "Think and Grow Rich", 60);
+printDailySummary(readingLog);
+console.log("New total minutes read:", totalReadingMinutes(readingLog));
+console.log("New most read book:", mostReadBook(readingLog));
